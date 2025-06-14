@@ -60,8 +60,8 @@ function askQuestion() {
 
 function endGame() {
   clearInterval(timer);
-  console.log("\n🎮 Game Over!");
-  console.log(`🧠 Your Score: ${score} / ${questions.length}`);
+  console.log("\nGame Over!");
+  console.log(`Your Score: ${score} / ${questions.length}`);
   rl.close();
 }
 
